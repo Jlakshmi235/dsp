@@ -22,7 +22,7 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 > > My cheat sheet
 >>1. show current working directory path  - **`pwd`**
 >>2. creating a directory - **`mkdir <dirname>`**
->>3. deleting a directory - **`rmdir <dirname>`**
+>>3. deleting a directory - **`rm -rf <dirname>`**
 >>4. creating a file using `touch` command - **`touch <filename>`**
 >>5. deleting a file - **`rm <filename>`**
 >>6. renaming a file - **`mv <cur filename> <new filename>`**
@@ -31,6 +31,7 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 >>9. changing directory - **`cd <sub dirname>`** or **`cd <path to directory>`**
 >>10. go to parent directory - **`cd ..`**
 >>11. displaying contents of a file - **`cat <filename>`** or **`less <filename>`** or **`more <filename>`**
+>>12. displaying the number of lines, words, and characters in a file - **`wc <filename`**
 ---
 
 ### Q2.  List Files in Unix   
@@ -44,13 +45,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > `ls` -   
-`ls -a` -   
-`ls -l` -   
-`ls -lh` -   
-`ls -lah` -  
-`ls -t` -   
-`ls -Glp` -  
+>> `ls` - lists all visible directories and files present  
+>>`ls -a` -  lists hidden files along with visible directories and files
+>>`ls -l` -  displays the long format listing 
+>>`ls -lh` - displays the size in bytes  
+>>`ls -lah` - displays the long format listing of hidden files also 
+>>`ls -t` - lists directories and files sorted according to timestamp (newest first)  
+>>`ls -Glp` - displays the long format listing and directories end with **/**  
 
 ---
 
@@ -58,7 +59,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+>>1. **`-R`** - displays subdirectories as well
+>>2. **`-m`** - displays content in csv format
+>>3. **`-d`** - displays only directories
+>>4. **`-t`** - lists directories and files sorted according to timestamp (newest first) 
+>>5. **`-u`** - displays files by file access time
 
 ---
 
