@@ -81,7 +81,7 @@ Upload these 3 files to the [`editors`](editors/) folder.
 
 What terminal editor will be your preferred choice of use? How did you make your decision?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> **Vim** is my preferred terminal editor. Have used it earlier and its easy to use.
 
 --
 
@@ -89,6 +89,6 @@ What terminal editor will be your preferred choice of use? How did you make your
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> **Sublime** is my preferred graphical editor. I use Sublime for every other thing. I like the file switching feature in sublime where you can switch to a different file by pressing cmd+P. This comes in handy when you are dealing with a lot of files together. 
 
  
