@@ -19,8 +19,18 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
+> > My cheat sheet
+>>1. show current working directory path  - **`pwd`**
+>>2. creating a directory - **`mkdir <dirname>`**
+>>3. deleting a directory - **`rmdir <dirname>`**
+>>4. creating a file using `touch` command - **`touch <filename>`**
+>>5. deleting a file - **`rm <filename>`**
+>>6. renaming a file - **`mv <cur filename> <new filename>`**
+>>7. listing hidden files - **`ls -a`**
+>>8. copying a file from one directory to another - **`cp <filename> <dirname>`**
+>>9. changing directory - **`cd <sub dirname>`** or **`cd <path to directory>`**
+>>10. go to parent directory - **`cd ..`**
+>>11. displaying contents of a file - **`cat <filename>`** or **`less <filename>`** or **`more <filename>`**
 ---
 
 ### Q2.  List Files in Unix   
@@ -34,7 +44,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > `ls` -   
+`ls -a` -   
+`ls -l` -   
+`ls -lh` -   
+`ls -lah` -  
+`ls -t` -   
+`ls -Glp` -  
 
 ---
 
