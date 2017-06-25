@@ -54,10 +54,7 @@ Did you install Python 2 or 3? Why?
 
 How can you check the version of Python installed if you happen to be on an unfamiliar computer?
 
->> ``` bash
-python --version
+>> `python11 --version`
+``` bash
+python22 --version
 ```
-
- 
-
-
