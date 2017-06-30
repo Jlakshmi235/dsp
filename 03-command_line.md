@@ -71,7 +71,12 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > `xargs` has the ability to apply a given command to a series of items piped through in order. The default command is echo.
+Example: suppose we want to find all pdf files in a directory and convert them to text files. We can use the following statement.
+```console
+find . -name '*.pdf' | xargs -n1 pdftotext
+```
+
 
  
 
