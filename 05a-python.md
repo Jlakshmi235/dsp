@@ -12,7 +12,7 @@ For quick and easy interactive practice with Python, many people enjoy [Codecade
 
 How are Python lists and tuples similar and different? Which will work as keys in dictionaries? Why?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Lists and tuples are sequences of objects. The main difference is that lists are mutable (can be changed later) whereas tuples are immutable. Tuples can be used as keys in dictionaries.
 
 ---
 
@@ -20,7 +20,8 @@ How are Python lists and tuples similar and different? Which will work as keys i
 
 How are Python lists and sets similar and different? Give examples of using both. How does performance compare between lists and sets for finding an element. Why?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Lists and sets are sequences of objects. The main difference is that set have unique oject values whereas lists can have repeated values. 
+Sets would be faster in finding elements. This is because sets are implemented using hash tables. When an object is added to a set, the position within the memory of the set object is determined using the hash of the object to be added. When searching for an element, all that needs to be done is to look if the object is at the position determined by its hash, so the speed of this operation does not depend on the size of the set.
 
 ---
 
@@ -50,8 +51,12 @@ a.
 date_start = '01-02-2013'    
 date_stop = '07-28-2015'
 ```
+start=datetime.strptime(date_stop, '%m-%d-%Y')
+stop=datetime.strptime(date_start, '%m-%d-%Y')
+delta = stop-start
+print delta.days
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE (answer will be in number of days)
+
 
 b.  
 ```
@@ -59,7 +64,10 @@ date_start = '12312013'
 date_stop = '05282015'  
 ```
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE (answer will be in number of days)
+start=datetime.strptime(date_stop, '%m%d%Y')
+stop=datetime.strptime(date_start, '%m%d%Y')
+delta = stop-start
+print delta.days
 
 c.  
 ```
